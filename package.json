@@ -1,0 +1,29 @@
+{
+  "name": "@danmaqua/danmaku-src-douyu",
+  "description": "Douyu Live Danmaku Source server for Danmaqua Apps",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmaqua/danmaku-src-douyu.git"
+  },
+  "author": {
+    "email": "fythonx@gmail.com",
+    "name": "fython",
+    "url": "https://github.com/fython"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmaqua/danmaku-src-douyu/issues"
+  },
+  "homepage": "https://github.com/danmaqua/danmaku-src-douyu#readme",
+  "dependencies": {
+    "@danmaqua/danmaku-src-common": "^0.1.2",
+    "douyudm": "^1.3.2-beta.2",
+    "log4js": "^6.3.0",
+    "node-cron": "^2.0.3"
+  }
+}

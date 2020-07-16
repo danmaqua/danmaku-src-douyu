@@ -1,0 +1,7 @@
+{
+    "hostname": "127.0.0.1",
+    "port": 8002,
+    "basicAuth": null,
+    "reconnectCron": "0 0 3 * * *",
+    "logsDir": "./logs"
+}
